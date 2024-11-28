@@ -1,0 +1,150 @@
+/* Estilo del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    /* Fuente de texto */
+    background: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Color de fondo */
+    margin: 20px;
+    /* Espacio exterior */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 90%;
+    /* Ancho máximo */
+    margin: 0 auto;
+    /* Centrar horizontalmente */
+    padding: 20px;
+    /* Espacio interior */
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    /* Color de fondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    border-radius: 8px;
+    /* Bordes redondeados */
+}
+
+/* Estilo del título principal */
+h1, h2 {
+    text-align: center;
+    /* Centrar el texto */
+    color: #fff;
+    /* Color del texto */
+}
+
+/* Grupo de formulario */
+.form-group {
+    margin-bottom: 15px;
+    /* Espacio inferior */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Estilo de cajas de texto y combo */
+input[type="text"],
+select {
+    width: 80%;
+    /* Ancho completo */
+    padding: 8px;
+    /* Espacio interior */
+    margin-top: 5px;
+    /* Espacio superior */
+    border: 2px solid #ccc;
+    background: none;
+    /* Borde */
+    border-radius: 4px;
+    /* Bordes redondeados */
+    outline: none;
+    color: #fff;
+}
+
+input::placeholder, select{
+    color: #fff;
+}
+
+input::after{
+    color: #fff;
+}
+select option{
+    color: #000;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    /* Ancho completo */
+    border-collapse: collapse;
+    /* Colapsar bordes */
+    margin-top: 20px;
+    /* Espacio superior */
+}
+
+/* Bordes de la tabla */
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    /* Borde de las celdas */
+}
+
+/* Espacio interior de celdas */
+th,
+td {
+    padding: 10px;
+    /* Espacio interior */
+    text-align: center;
+    /* Centrar el texto */
+    color: #fff;
+}
+
+/* Estilo de los encabezados de tabla */
+th {
+    background-color: transparent;
+    /* Color de fondo */
+}
+
+.btncov{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Estilo del botón */
+.btn {
+    display: inline-block;
+    /* Mostrar como bloque en línea */
+    padding: 10px 20px;
+    /* Espacio interior */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    text-align: center;
+    /* Centrar el texto */
+    color: #fff;
+    /* Color del texto */
+    background-color: transparent;
+    /* Color de fondo */
+    border:2px solid #fff;
+    /* Sin borde */
+    border-radius: 4px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambiar cursor al pasar */
+    margin-top: 10px;
+    /* Espacio superior */
+    transition: 1s;
+}
+
+/* Cambio de color al pasar sobre el botón */
+.btn:hover {
+    scale: 1.1;
+    /* Color al pasar */
+}
